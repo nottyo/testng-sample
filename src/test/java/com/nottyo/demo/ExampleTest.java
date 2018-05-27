@@ -20,7 +20,7 @@ public class ExampleTest {
 
     @Test(description = "Fail Success")
     public void testSomethingFailure() {
-        assertThat("10/3 = 1", 10%3, is(equalTo(2)));
+        assertThat("10/3 = 1", 10%3, is(equalTo(1)));
     }
 
 }
