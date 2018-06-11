@@ -23,4 +23,9 @@ public class ExampleTest {
         assertThat("10/3 = 1", 10%3, is(equalTo(1)));
     }
 
+    @Test(description = "Skip This Test", enabled = false)
+    public void testSkip() {
+        System.out.println("skip test");
+    }
+
 }
